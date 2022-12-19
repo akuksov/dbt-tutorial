@@ -1,0 +1,12 @@
+ms_tst:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 18 for SQL Server' # (The ODBC Driver installed on your system)
+      server: localhost
+      port: 1433
+      database: tst
+      schema: dbo
+      windows_login: True
+      encrypt: false
